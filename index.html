@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instrumento Virtual XYZ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header con navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="caracteristicas.html">Características</a></li> <!-- Redirige a la página caracteristicas.html -->
+        <li><a href="descargar.html">Descargar</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Bienvenido a nuestro Instrumento Virtual XYZ</h1>
+    <p>¡Te invitamos a aprender un poco más de este innovador diseño electrónico!</p>
+    <p><a href="#descripcion">¿Qué es el Instrumento Virtual?</a></p>
+    <a href="descargar.html" class="btn">Descargar</a>
+    <img src="imagen.inicio.png" alt="Instrumento Virtual XYZ" class="hero-image">
+  </section>
+
+  <section id="descripcion">
+    <h2>¿Qué es el Instrumento Virtual XYZ?</h2>
+    <p>
+        El Instrumento Virtual XYZ es una innovadora herramienta diseñada para medir y controlar de manera precisa los parámetros clave de un 
+        Mosfet, como tensión, corriente y temperatura. Equipado con controladores PID dedicados, este sistema asegura una regulación estable y 
+        precisa bajo cualquier condición de operación, proporcionando un control total sobre el dispositivo.
+    </p>
+    <p>
+        En su núcleo, el instrumento utiliza el microcontrolador Blue Pill (STM32F103C8T6) para la adquisición de datos, mientras que el 
+        procesamiento de la información y la interfaz gráfica se gestionan a través de software Qt, lo que permite una experiencia de usuario 
+        intuitiva y eficiente.
+    </p>
+    <p>
+        El Instrumento Virtual XYZ es compatible con PC, y puede conectarse fácilmente a Windows 10 o superior mediante un puerto USB 
+        y un conversor USB-UART. Se recomienda contar con al menos 8 GB de RAM.
+    </p>
+    <p>
+        Además, el sistema incluye una salida RS485 Half-Duplex, que utiliza el protocolo MODBUS RTU para facilitar la comunicación y el control. 
+        Las funciones principales incluyen Read Holding Registers para obtener señales analógicas y Write Holding Registers para controlar salidas analógicas.
+    </p>
+</section>
+
+
+  <!-- Resto del contenido aquí -->
+
+  <footer id="contacto">
+    <p>Contacto: contacto@instrumentovirtual.com</p>
+    <p>&copy; 2024 Instrumento Virtual XYZ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

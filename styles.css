@@ -1,0 +1,291 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del cuerpo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    box-sizing: border-box; /* Hace que los tamaños de los elementos incluyan padding y bordes */
+    background-color: #f4f4f9; /* Color de fondo claro */
+  }
+
+  /* Estilo para la imagen en la sección de inicio */
+.hero-image {
+    display: block; /* Asegura que se comporte como un bloque para un mejor control */
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    margin: 20px auto; /* Centra la imagen horizontalmente y agrega margen superior e inferior */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+  }
+  
+
+/* Asegurarse de que la sección de descripción alinee el texto a la izquierda */
+#descripcion {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 40px 20px; /* Relleno alrededor de la sección */
+  margin-top: 40px; /* Márgenes superiores para separarlo de la sección anterior */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+#descripcion h2 {
+  font-size: 2em; /* Tamaño de fuente para el encabezado */
+  text-align: left; /* Alinea el título a la izquierda */
+  color: rgb(195, 0, 255); /* Cambia el color del texto a azul */
+  font-weight: bold; /* Aplica negrita */
+}
+
+
+#descripcion p {
+  font-size: 1.2em; /* Tamaño de fuente para el texto */
+  color: #000000; /* Color gris para el texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+  text-align: left; /* Alinea el párrafo a la izquierda */
+}
+
+
+  
+  /* Estilos para el encabezado y la barra de navegación */
+  header {
+    background-color: #333; /* Color de fondo oscuro para el encabezado */
+    color: white; /* Color de texto blanco */
+    padding: 10px 0; /* Relleno en la parte superior e inferior */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Elimina los puntos de lista predeterminados */
+    text-align: center; /* Centra los enlaces en la barra de navegación */
+  }
+  
+  nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 15px; /* Espacio horizontal entre los enlaces */
+  }
+  
+  nav ul li a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 18px; /* Tamaño de fuente para los enlaces */
+  }
+  
+  /* Sección hero: Introducción a la aplicación */
+  .hero {
+    background-color: #75c1f4; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Centra el contenido */
+    padding: 50px 0; /* Relleno arriba y abajo */
+  }
+  
+  .hero h1 {
+    font-size: 4.5em; /* Tamaño de fuente grande para el título */
+  }
+  
+  .hero p {
+    font-size: 1.6em; /* Tamaño de fuente ligeramente más grande para el párrafo */
+  }
+  
+  /* Estilo para el botón */
+  .btn {
+    background-color: #ff01cc; /* Color de fondo*/
+    color: white; /* Color de texto blanco */
+    padding: 18px 28px; /* Relleno alrededor del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño de fuente para los enlaces */
+  }
+
+  .btn:hover {
+    background-color: #0a2bff;
+  }
+  
+  .btn.disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  
+  /* Sección de características */
+  section {
+    padding: 40px 20px; /* Relleno alrededor del contenido */
+    text-align: center; /* Centra el contenido de las secciones */
+  }
+  
+  /* Estilos para las características individuales */
+  .caracteristica {
+    background-color: rgb(243, 229, 240); /* Fondo blanco para cada característica */
+    margin: 20px 0; /* Margen vertical entre las características */
+    padding: 20px; /* Relleno dentro de cada característica */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para destacar las tarjetas */
+  }
+
+/* Cambiar el color y tamaño de los títulos de las características */
+#caracteristicas .caracteristica h3 {
+    color: fuchsia; /* Cambia el color del texto a fucsia */
+    font-size: 1.8em; /* Incrementa el tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea negrita para destacarlo */
+    margin-bottom: 10px; /* Agrega espacio debajo del título para separarlo del texto */
+  }
+  
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 20px 0; /* Relleno arriba y abajo */
+  }
+  
+  /* Estilo general para la sección de descargas */
+#descargas {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .descarga-opcion {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .descarga-opcion h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .descarga-opcion p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+/* Estilo general para la sección de contacto */
+#contacto {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .contacto-opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Teléfonos - Fondo azul claro */
+  .contacto-item.telefono {
+    background-color: #c7e6fc;
+    border-color: #90caf9;
+  }
+  
+  /* WhatsApp - Fondo verde claro */
+  .contacto-item.whatsapp {
+    background-color: #cbf9cf;
+    border-color: #81c784;
+  }
+  
+  /* Email - Fondo amarillo claro */
+  .contacto-item.email {
+    background-color: #fcf8c8;
+    border-color: #ffeb3b;
+  }
+  
+  .contacto-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contacto-item p {
+    margin: 5px 0;
+  }
+  
+  .contacto-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contacto-item a:hover {
+    text-decoration: underline;
+  }
+
+  /* Estilos para los logotipos de Windows y iOS */
+.descarga-opcion img.logo-plataforma {
+    max-width: 100px; /* Ajusta el tamaño máximo del logo */
+    margin: 2px 0; /* Añade espacio alrededor de la imagen */
+  }
+  
+  .descarga-opcion {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .descarga-opcion h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .descarga-opcion p {
+    margin: 15px 0;
+  }
+  
+  .descarga-opcion a,
+  .descarga-opcion button {
+    background-color: #ff6347; /* Botón rojo */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .descarga-opcion a:hover,
+  .descarga-opcion button:hover {
+    background-color: #6e2f1f;
+  }
+  
+  .descarga-opcion button.disabled {
+    background-color: #d3d3d3; /* Gris para el botón deshabilitado */
+    cursor: not-allowed;
+  }
+  
+  
+/* Estilo para la página de ubicación */
+#ubicacion {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .mapa {
+    margin-top: 20px;
+  }
+  
+  /* El iframe del mapa se ajusta a la página */
+  .mapa iframe {
+    max-width: 100%;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para la imagen del mapa */
+.ubicacion-imagen {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    display: block;
+  }
+  
