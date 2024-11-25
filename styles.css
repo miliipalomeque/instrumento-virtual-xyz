@@ -289,3 +289,100 @@ body {
     display: block;
   }
   
+
+/* Estilo para la imagen en la parte superior de la sección de contacto */
+.imagen-contacto {
+  width: 50%; /* Ajusta el tamaño de la imagen (50% del contenedor) */
+  max-width: 300px; /* Limita el tamaño máximo de la imagen */
+  margin: 0 auto 10px auto; /* Coloca la imagen centrada con un pequeño margen inferior */
+  display: block; /* Asegura que la imagen se comporte como bloque */
+  border-radius: 8px; /* Bordes redondeados (opcional) */
+}
+
+/* Estilo para el título de la sección de contacto */
+#contacto h2 {
+  margin-top: 0; /* Elimina el margen superior que separa la imagen del título */
+  margin-bottom: 10px; /* Opcional: margen inferior para separación */
+}
+
+
+/* Ajustes para las imágenes en el manual de instrucciones */
+.instruccion-imagen {
+  width: 80%; /* Ajusta el tamaño de la imagen, puedes modificar el porcentaje según necesites */
+  max-width: 400px; /* Limita el tamaño máximo de las imágenes */
+  display: block;
+  margin: 10px auto; /* Centra la imagen y añade espacio arriba y abajo */
+  border: 2px solid #ccc; /* Añade un borde gris claro */
+  border-radius: 8px; /* Hace que el borde tenga esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para resaltar la imagen */
+}
+
+/* Contenedor de las imágenes alineadas horizontalmente */
+.imagenes-row {
+  display: flex; /* Alinea las imágenes en una fila */
+  justify-content: space-between; /* Distribuye las imágenes con espacio entre ellas */
+  gap: 10px; /* Agrega un espacio entre las imágenes */
+  flex-wrap: wrap; /* Permite que las imágenes se ajusten si el tamaño de la pantalla es pequeño */
+}
+
+.instruccion-imagenes {
+  width: 45%; /* Cada imagen ocupará el 45% del ancho disponible */
+  max-width: 400px; /* Establece un tamaño máximo para las imágenes */
+  display: block;
+  margin: 0 auto; /* Centra las imágenes */
+  border: 2px solid #ccc; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar las imágenes */
+}
+
+/* Asegura que los párrafos debajo de los títulos estén alineados a la izquierda */
+.instruccion p {
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: 0; /* Elimina cualquier margen extra en el lado izquierdo */
+  margin-right: 0; /* Elimina cualquier margen extra en el lado derecho */
+  padding-left: 0; /* Elimina el relleno izquierdo extra */
+}
+
+/* Opcional: Si el contenedor de las instrucciones tiene un margen o padding que no deseas */
+.instruccion {
+  margin: 0; /* Elimina márgenes extra */
+  padding: 10px; /* Puedes ajustar el relleno para mejorar la presentación */
+}
+
+/* Contenedor para las imágenes en fila */
+.imagen-row {
+  display: flex; /* Alinea las imágenes en una fila */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra la flecha verticalmente */
+  gap: 0; /* Elimina el espacio entre imágenes */
+  padding: 0; /* Asegúrate de que no haya relleno */
+  margin: 0; /* Elimina márgenes */
+}
+
+/* Estilos para las imágenes laterales */
+.instruccion-imagenes-ejemplo {
+  width: 65%; /* Ajusta el tamaño de las imágenes laterales */
+  max-width: 400px;
+  display: block;
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Sin relleno */
+  border: 2px solid #ccc; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar las imágenes */
+}
+
+/* Estilos para la flecha */
+.flecha-imagen {
+  width: 30%; /* Ajusta el ancho de la flecha */
+  height: auto; /* Mantén proporciones correctas */
+  max-width: 150px; /* Limita el tamaño máximo */
+  display: block;
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Asegúrate de que no haya relleno */
+  background: none; /* Elimina cualquier fondo */
+  border: none; /* Asegura que no haya bordes */
+  box-shadow: none; /* Elimina cualquier sombra */
+}
+
+
+
