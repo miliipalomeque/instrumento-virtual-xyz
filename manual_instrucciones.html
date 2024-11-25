@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de instrucciones - Instrumento Virtual XYZ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado con navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="caracteristicas.html">Características</a></li>
+        <li><a href="instrucciones.html">Instrucciones</a></li> <!-- Redirige a esta misma página -->
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de Instrucciones -->
+  <main>
+    <section id="instrucciones">
+      <h1>Instrucciones para usar el Instrumento Virtual XYZ</h1>
+      
+      <!-- Paso 1 -->
+      <div class="instruccion">
+        <h2>1: Conectar el dispositivo</h2>
+        <p>Conecta el dispositivo la PC mediante el cable USB.</p>
+        <img src="usb.png" alt="Imagen Paso 2" class="instruccion-imagen">
+      </div>
+
+      <!-- Paso 2 -->
+      <div class="instruccion">
+        <h2>2: Verificar puerto y baudios</h2>
+        <p>La aplicación automáticamente detecta el puerto de comunicación empleado y selecciona 9600 baudios, como se muestra en la imágen a continuación. De no ser asi, corregirlo manualmente.</p>
+        <img src="menu_inicio_baudios.jpeg" alt="Imagen Paso 2" class="instruccion-imagen">
+      </div>
+
+      <!-- Paso 3 -->
+      <div class="instruccion">
+        <h2>3: Conectar el dispositivo</h2>
+        <p>Conecta el dispositivo a la aplicación seleccionando la opción "Conectar". Una vez realizado esto correctamente, se habilitará en pantalla la opción "Gráfica". Clickear con el cursor sobre esta opción.</p>
+        <img src="menu_inicio_conectado.jpeg" alt="Imagen Paso 3" class="instruccion-imagen">
+      </div>
+
+      <!-- Paso 4 -->
+      <div class="instruccion">
+        <h2>4: Gráfica</h2>
+        <p>La pantalla de las gráficas posee este formato. En este formato se pueden apreciar dos grillas. Sobre los ejes "Y" se encuentran las unidades de medición y sobre los ejes "X" se encuentran los indicadores de tiempo.</p>
+        <img src="grafico_inicial.jpeg" alt="Imagen Paso 3" class="instruccion-imagen">
+      </div>
+
+    <!-- Paso 5 -->
+    <div class="instruccion">
+        <h2>5: Seleccionar parámetros a medir</h2>
+        <p>En el lado derecho de la pantalla podremos seleccionar si presentar en pantalla los datos de "Tensión(V)", "Corriente(A)", "Potencia(W)" y "Temperatura(C)". Se puede presentar cada parámetro de manera individual o simultáneamente. Como se puede apreciar en las imágenes a continuación.</p>
+        
+        <!-- Contenedor para las imágenes -->
+        <div class="imagenes-row">
+        <img src="grafico_inicial_voltaje.jpeg" alt="Imagen Paso 1" class="instruccion-imagenes">
+        <img src="grafico_inicial_corriente.jpeg" alt="Imagen Paso 2" class="instruccion-imagenes">
+        <img src="grafico_inicial_potencia.jpeg" alt="Imagen Paso 3" class="instruccion-imagenes">
+        <img src="grafico_inicial_todos.jpeg" alt="Imagen Paso 4" class="instruccion-imagenes">
+        </div>
+    </div>
+
+<!-- Paso 6 -->
+<div class="instruccion">
+    <h2>6: Controles de medición.</h2>
+    <p>Por debajo de los displays indicadores de valores, se encuentran los controles para modificar los valores máximos y mínimos de los ejes Y de ambas grillas. Siendo Y1 la grilla de arriba e Y2 la grilla de abajo. Modificando Y1max e Y2max modificaremos el valor máximo mostrado en pantalla sobre el eje Y. Y modificando Y1min e Y2min se modificaran los valores mínimos respectivamente.</p>
+    
+    <!-- Imagen del paso -->
+    <img src="controles.jpeg" alt="Imagen Paso 6" class="instruccion-imagen">
+
+    <p>Ejemplo:</p>
+
+    <!-- Contenedor para las imágenes en fila -->
+    <div class="imagen-row">
+        <img src="grafico_inicial_todos.jpeg" alt="Imagen Paso 1" class="instruccion-imagenes-ejemplo">
+        <img src="flecha.png" alt="Flecha" class="flecha-imagen">
+        <img src="grafico_inicial_controles_cambiados.jpeg" alt="Imagen Paso 3" class="instruccion-imagenes-ejemplo">
+    </div>     
+</div>
+
+      <!-- Paso 7 -->
+      <div class="instruccion">
+        <h2>7: Reseteo del tiempo</h2>
+        <p>Dado a que el instrumento virtual mide en tiempo real, se puede resetear el tiempo del eje "X" para que vuelva a contar desde 0 en caso de necesitarlo. Esto se puede realizar oprimiendo el botón "RESET TIME" en el extremo superior derecho de la pantalla.</p>
+        <img src="boton_reset.jpeg" alt="Imagen Paso 1" class="instruccion-imagen">
+      </div>
+
+     <!-- Paso 8 -->
+      <div class="instruccion">
+        <h2>8: Displays de valores</h2>
+        <p>Los displays que muestran los valores de la medición son 8. Hay 2 para "Voltaje", 2 para "Corriente", 2 para "Potencia" y 2 para "Temperatura". Los 4 displays de la izquierda muestran un valor promedio de la medición realizada. Los 4 restantes de la derecha, muestran el valor máximo medido por cada parámetro.</p>
+        <img src="fluctuaciones.jpeg" alt="Imagen Paso 1" class="instruccion-imagen">
+      </div>
+    
+      <!-- Paso 9 -->
+      <div class="instruccion">
+        <h2>9: Control de PWM por "Dial"</h2>
+        <p>Una de las opciones para controlar los parámetros, es el control por PWM. El mismo puede controlarse de manera "Manual" o forma "Automática". Para activar la opción "Manual", se debe seleccionar la opción "ON" al lado del dial ubicado en el extremo inferior derecho de la pantalla. De esta manera, rotando el dial con el mouse se podrá obtener la señal PWM que se desee. De lo contrario, se coloca en "OFF" y al cálculo de PWM lo hace el instrumento.</p>
+        <img src="PWM_manual.jpeg" alt="Imagen Paso 1" class="instruccion-imagen">
+      </div>
+
+      <!-- Paso 10 -->
+      <div class="instruccion">
+        <h2>10: Control de PWM por corriente, potencia o temperatura</h2>
+        <p>La otra forma de controlar el PWM es mediante los controles de corriente, potencia o temperatura. Se puede preestablecer una corriente o una potencia deseada y el instrumento virtual se encargará de hacer los cálculos necesarios para obtener lo solicitado. También, se puede seleccionar en simultáneo una protección contra sobretemperatura, estableciendo la temperatura máxima deseada y si el dispositivo medido excede, el PWM será 0.</p>
+        <p>Ejemplo de control de corriente con protección de sobretemperatura:</p>
+        <img src="proteccion_corrienteytemp.jpeg" alt="Imagen Paso 1" class="instruccion-imagen">
+        <p>Ejemplo de control de potencia con protección de sobretemperatura:</p>
+        <img src="proteccion_potenciaytemp.jpeg.png" alt="Imagen Paso 1" class="instruccion-imagen">
+      </div>
+    
+  </main>
+
+</body>
+</html>
