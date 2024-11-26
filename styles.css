@@ -327,7 +327,7 @@ body {
 
 .instruccion-imagenes {
   width: 45%; /* Cada imagen ocupará el 45% del ancho disponible */
-  max-width: 400px; /* Establece un tamaño máximo para las imágenes */
+  max-width: 300px; /* Establece un tamaño máximo para las imágenes */
   display: block;
   margin: 0 auto; /* Centra las imágenes */
   border: 2px solid #ccc; /* Borde gris claro */
