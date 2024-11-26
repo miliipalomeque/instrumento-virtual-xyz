@@ -321,13 +321,13 @@ body {
 .imagenes-row {
   display: flex; /* Alinea las imágenes en una fila */
   justify-content: space-between; /* Distribuye las imágenes con espacio entre ellas */
-  gap: 10px; /* Agrega un espacio entre las imágenes */
+  gap: 1px; /* Agrega un espacio entre las imágenes */
   flex-wrap: wrap; /* Permite que las imágenes se ajusten si el tamaño de la pantalla es pequeño */
 }
 
 .instruccion-imagenes {
   width: 45%; /* Cada imagen ocupará el 45% del ancho disponible */
-  max-width: 200px; /* Establece un tamaño máximo para las imágenes */
+  max-width: 150px; /* Establece un tamaño máximo para las imágenes */
   display: block;
   margin: 0 auto; /* Centra las imágenes */
   border: 2px solid #ccc; /* Borde gris claro */
